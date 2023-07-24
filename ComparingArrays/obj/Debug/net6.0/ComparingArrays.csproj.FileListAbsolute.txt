@@ -1,0 +1,15 @@
+C:\Dev\Algorithms\ComparingArrays\bin\Debug\net6.0\ComparingArrays.exe
+C:\Dev\Algorithms\ComparingArrays\bin\Debug\net6.0\ComparingArrays.deps.json
+C:\Dev\Algorithms\ComparingArrays\bin\Debug\net6.0\ComparingArrays.runtimeconfig.json
+C:\Dev\Algorithms\ComparingArrays\bin\Debug\net6.0\ComparingArrays.dll
+C:\Dev\Algorithms\ComparingArrays\bin\Debug\net6.0\ComparingArrays.pdb
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.csproj.AssemblyReference.cache
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.AssemblyInfo.cs
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.dll
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\refint\ComparingArrays.dll
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.pdb
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ComparingArrays.genruntimeconfig.cache
+C:\Dev\Algorithms\ComparingArrays\obj\Debug\net6.0\ref\ComparingArrays.dll
