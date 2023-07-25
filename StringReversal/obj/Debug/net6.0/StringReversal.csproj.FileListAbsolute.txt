@@ -1,0 +1,15 @@
+C:\Dev\Algorithms\StringReversal\bin\Debug\net6.0\StringReversal.exe
+C:\Dev\Algorithms\StringReversal\bin\Debug\net6.0\StringReversal.deps.json
+C:\Dev\Algorithms\StringReversal\bin\Debug\net6.0\StringReversal.runtimeconfig.json
+C:\Dev\Algorithms\StringReversal\bin\Debug\net6.0\StringReversal.dll
+C:\Dev\Algorithms\StringReversal\bin\Debug\net6.0\StringReversal.pdb
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.csproj.AssemblyReference.cache
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.AssemblyInfo.cs
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.dll
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\refint\StringReversal.dll
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.pdb
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\StringReversal.genruntimeconfig.cache
+C:\Dev\Algorithms\StringReversal\obj\Debug\net6.0\ref\StringReversal.dll
