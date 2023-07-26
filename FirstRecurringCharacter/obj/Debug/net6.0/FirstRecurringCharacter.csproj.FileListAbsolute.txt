@@ -1,0 +1,15 @@
+C:\Dev\Algorithms\FirstRecurringCharacter\bin\Debug\net6.0\FirstRecurringCharacter.exe
+C:\Dev\Algorithms\FirstRecurringCharacter\bin\Debug\net6.0\FirstRecurringCharacter.deps.json
+C:\Dev\Algorithms\FirstRecurringCharacter\bin\Debug\net6.0\FirstRecurringCharacter.runtimeconfig.json
+C:\Dev\Algorithms\FirstRecurringCharacter\bin\Debug\net6.0\FirstRecurringCharacter.dll
+C:\Dev\Algorithms\FirstRecurringCharacter\bin\Debug\net6.0\FirstRecurringCharacter.pdb
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.csproj.AssemblyReference.cache
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.AssemblyInfo.cs
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.dll
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\refint\FirstRecurringCharacter.dll
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.pdb
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\FirstRecurringCharacter.genruntimeconfig.cache
+C:\Dev\Algorithms\FirstRecurringCharacter\obj\Debug\net6.0\ref\FirstRecurringCharacter.dll
