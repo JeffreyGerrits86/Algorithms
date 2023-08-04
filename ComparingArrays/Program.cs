@@ -7,7 +7,7 @@
     internal class Program
     {
         static readonly char[] array1 = { 'a', 'b', 'c', 'x' };
-        static readonly char[] array2 = {'z', 'y', 'e' };
+        static readonly char[] array2 = {'z', 'y', 'x' };
 
         static void Main(string[] args)
         {
