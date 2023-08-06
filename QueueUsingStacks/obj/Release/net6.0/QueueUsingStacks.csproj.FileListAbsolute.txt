@@ -1,0 +1,15 @@
+C:\Dev\Algorithms\QueueUsingStacks\bin\Release\net6.0\QueueUsingStacks.exe
+C:\Dev\Algorithms\QueueUsingStacks\bin\Release\net6.0\QueueUsingStacks.deps.json
+C:\Dev\Algorithms\QueueUsingStacks\bin\Release\net6.0\QueueUsingStacks.runtimeconfig.json
+C:\Dev\Algorithms\QueueUsingStacks\bin\Release\net6.0\QueueUsingStacks.dll
+C:\Dev\Algorithms\QueueUsingStacks\bin\Release\net6.0\QueueUsingStacks.pdb
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.csproj.AssemblyReference.cache
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.AssemblyInfo.cs
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.dll
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\refint\QueueUsingStacks.dll
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.pdb
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\QueueUsingStacks.genruntimeconfig.cache
+C:\Dev\Algorithms\QueueUsingStacks\obj\Release\net6.0\ref\QueueUsingStacks.dll
