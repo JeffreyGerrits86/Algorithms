@@ -13,15 +13,23 @@
     If we could build a queue out of an array, we might get increased performance out of pop() functions.
 */
 
-fn main() {
+use std::time::{Instant};
+
+fn main() {   
+
     let mut queue = Queue::new();
 
 
     // some obligatory functions
-    queue.push(1);
+    /*queue.push(1);
     queue.push(2);
     queue.push(3);
-    queue.push(4);
+    queue.push(4);*/
+    let mut item = 1;
+    for _ in 0..500000 {
+        queue.push(item);
+        item += 1;
+    }
 
     queue.pop();
 
@@ -31,10 +39,6 @@ fn main() {
     let empty = queue.empty();
     println!("{}", empty);
 
-
-    for i in queue.iter() {
-        println!("{}", i);
-    }
 
 }
 
@@ -76,14 +80,17 @@ impl Queue {
         }
     }
 
-    // This was the tricky one, you can have queue functions with an array by taking a slice of index[1] and greater.
-    // If you now store the new slice as the old vector, you did a pop without moving shit around!
-    // Since the reference to the first item no longer exists, the borrow checker kills it.
-    // That means it is also safe! 
+    // The Rust documentation would indicate that this is an O(1) operation, since a vector slice is a view. 
+    // However, the time increases when the queue gets bigger. I don't understand how and why, since this contradicts what the documentation says. 
+    // Maybe I'll shoot this over to the Rust foundation or Stackoverflow...
     fn pop(&mut self) {
         if self.data.len() > 0 {
-            let slice: &Vec<i32> = &self.data[1..].to_vec();
-            self.data = (&slice).to_vec();
+            let start_time = Instant::now();
+            let slice: Vec<i32> = self.data[1..].to_vec();
+            let end_time = Instant::now();
+            let elapsed_time = end_time - start_time;
+            println!("{:?}", elapsed_time);
+            self.data = slice;
         }else {
             println!("Nothing to pop!");
         }
