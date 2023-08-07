@@ -82,8 +82,8 @@ impl Queue {
     // That means it is also safe! 
     fn pop(&mut self) {
         if self.data.len() > 0 {
-            let slice: Vec<i32> = self.data[1..].to_vec();
-            self.data = slice;
+            let slice: &Vec<i32> = &self.data[1..].to_vec();
+            self.data = (&slice).to_vec();
         }else {
             println!("Nothing to pop!");
         }
