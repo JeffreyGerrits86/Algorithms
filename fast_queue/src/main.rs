@@ -19,12 +19,6 @@ fn main() {
 
     let mut queue = Queue::new();
 
-
-    // some obligatory functions
-    /*queue.push(1);
-    queue.push(2);
-    queue.push(3);
-    queue.push(4);*/
     let mut item = 1;
     for _ in 0..500000 {
         queue.push(item);
@@ -86,11 +80,11 @@ impl Queue {
     fn pop(&mut self) {
         if self.data.len() > 0 {
             let start_time = Instant::now();
-            let slice: Vec<i32> = self.data[1..].to_vec();
+            let slice: &Vec<i32> = &self.data[1..].to_vec(); // https://doc.rust-lang.org/std/primitive.slice.html  says it should be O(1)...
             let end_time = Instant::now();
             let elapsed_time = end_time - start_time;
             println!("{:?}", elapsed_time);
-            self.data = slice;
+            self.data = slice.to_vec();
         }else {
             println!("Nothing to pop!");
         }
