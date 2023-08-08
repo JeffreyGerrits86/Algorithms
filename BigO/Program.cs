@@ -8,6 +8,7 @@
             // O(1)     --> Constant Time       --> irrespective of the input, the function runs 1 operation
             // O(n^2)   --> Quadratic Time      --> seen with nested loops
             // O(n!)    --> Factorial Time      --> Adding a nested loop for every input. 
+            // O(log N) --> Logarithmic Time    --> Your search gets smaller every step: BST
 
             // Rule 1: Worst Case                   --> calculate as though you will find your answer on the last possible iteration
             // Rule 2: Remove Constants             --> these do not grow with the problem input

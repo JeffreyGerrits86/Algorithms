@@ -1,0 +1,15 @@
+C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.exe
+C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.deps.json
+C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.runtimeconfig.json
+C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.dll
+C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.pdb
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.csproj.AssemblyReference.cache
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.AssemblyInfo.cs
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.dll
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\refint\BST.dll
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.pdb
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.genruntimeconfig.cache
+C:\Dev\Algorithms\BST\obj\Debug\net6.0\ref\BST.dll
