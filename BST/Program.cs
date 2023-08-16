@@ -4,6 +4,7 @@
      * Insert some items
      * Look up items
      * Traverse in order
+     * Remove item
      */
 
     internal class Program
@@ -22,7 +23,9 @@
             bst.Insert(6);
             bst.Insert(8);
 
-            bst.LookUp(2);
+            bst.LookUp(12);
+
+            bst.Remove(2);
 
             bst.InorderTraversal(bst.root);
         }
@@ -57,10 +60,6 @@
             }else if (value > node.value){
                 node.nodeRight = InsertRecursive(node.nodeRight, value);
             }
-            else
-            {
-                return node;
-            }
 
             return node;
         }
@@ -94,7 +93,7 @@
             {
                 if(node.nodeRight != null)
                 {
-                    LookUpRecursive(node.nodeRight, input);
+                    return LookUpRecursive(node.nodeRight, input);
                 }
                 else
                 {
@@ -105,7 +104,7 @@
             {
                 if(node.nodeLeft != null)
                 {
-                    LookUpRecursive(node.nodeLeft, input);
+                    return LookUpRecursive(node.nodeLeft, input);
                 }
                 else
                 {
@@ -129,7 +128,45 @@
             Console.WriteLine(node.value);
             InorderTraversal(node.nodeRight);
         }
-        
+
+        public void Remove(int input)
+        {
+            root = RemoveRecursive(root, input); 
+        }
+
+        private BSTNode RemoveRecursive(BSTNode currentNode, int input)
+        {
+            if (currentNode == null)
+                return null;
+
+            if (input < currentNode.value)
+                currentNode.nodeLeft = RemoveRecursive(currentNode.nodeLeft, input);
+            else if (input > currentNode.value)
+                currentNode.nodeRight = RemoveRecursive(currentNode.nodeRight, input);
+            else //this is where we deal with the case that we have found the node we are looking for
+            {
+                if (currentNode.nodeLeft == null)   
+                    return currentNode.nodeRight;          // if nodeRight is null, it falls through both statements, nulling the currentNode
+                else if (currentNode.nodeRight == null) 
+                    return currentNode.nodeLeft;
+
+                currentNode.value = FindMinValue(currentNode.nodeRight);
+                currentNode.nodeRight = RemoveRecursive(currentNode.nodeRight, (int)currentNode.value);
+            }
+            return currentNode;
+        }
+
+        private int FindMinValue(BSTNode node)
+        {
+            int minValue = (int)node.value;
+            while(node.nodeLeft != null)
+            {
+                minValue = (int)node.nodeLeft.value;
+                node = node.nodeLeft;
+            }
+            return minValue;    
+        }
+
     }
 
     public class BSTNode

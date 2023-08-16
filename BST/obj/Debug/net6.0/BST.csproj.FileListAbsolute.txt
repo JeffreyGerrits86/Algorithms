@@ -3,7 +3,6 @@ C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.deps.json
 C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.runtimeconfig.json
 C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.dll
 C:\Dev\Algorithms\BST\bin\Debug\net6.0\BST.pdb
-C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.csproj.AssemblyReference.cache
 C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.AssemblyInfoInputs.cache
 C:\Dev\Algorithms\BST\obj\Debug\net6.0\BST.AssemblyInfo.cs
